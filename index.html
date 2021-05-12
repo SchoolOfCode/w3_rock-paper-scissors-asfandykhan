@@ -1,9 +1,27 @@
 <!DOCTYPE html>
-<html lang="en-GB">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>RPS</title>
     <link rel="stylesheet" href="styles.css" />
-    <title>Rock, Paper, Scissors</title>
   </head>
-  <body></body>
+  <body>
+    <h1 id="text">RPS Challenge!</h1>
+    <h2 id="text">You may choose from:</h2>
+    <ol>
+      <button id="r" onclick="callRock()">ROCK</button>
+      <button id="p" onclick="callPaper()">PAPER</button>
+      <button id="s" onclick="callScissors()">SCISSORS</button>
+    </ol>
+    <div id="gp"></div>
+
+    <div id="w"></div>
+
+    <div id="d"></div>
+
+    <div id="l"></div>
+
+    <script src="main.js"></script>
+  </body>
 </html>
